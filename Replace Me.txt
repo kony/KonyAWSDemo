@@ -1,0 +1,16 @@
+//Lambda Functions create by Mobile Hub
+var LambdaFunctiontoInvoke = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // This function will be used in the Cloud logic form on click of the invoke function.
+var validateUserFunction = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // This function is used to validate the user who is already registered.
+var createUserFunction = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // This function is used to create a new user
+var News = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // Name of the table in the DynamoDB this table is used for the dynamoDB demo in the NoSQL DB form.
+
+var config = {
+    /*Please provide the access key id && secret access key for your user which are provided when you create a user in th IAM Note: This details will be provided only once when you create a user in IAM*/
+    accessKeyId: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
+    secretAccessKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
+    region: 'xx-xxxx-x', // This region refers to the your selected region. you can find this region in the url ex: us-east-1, us-west-2
+    Bucket: 'xxxxxxxxxxxxxxxxxxxxxxxxxx', // This the name of your S3 bucket from where we display the details in the User Storage form
+    IdentityPoolId: "xxxxxxxxxxxxxxxxxxxxxxxxxx", // This is the Id of the Identity pool created for the app.
+    UserPoolId: 'xxxxxxxxxxxxxxxxxxxxxxxxxx', // This is the id of the user pool created for the app.
+    ClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxx' // This is the Client Id of the App created in the User pool. Note: The app created in the User Pool should not generate the App Secret
+};
