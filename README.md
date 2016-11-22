@@ -8,8 +8,8 @@ This app showcases how to integrate a kony application with AWS services.
 # Supported Platforms
 
 Mobile :
-iOS
-Android
+•	iOS
+•	Android
 
 # Supported Version
 7.2 Kony Visualizer Enterprise
